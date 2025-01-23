@@ -1,5 +1,5 @@
 import validator from "validator";   // here we use import method because in package file we declare type: module
-import bcrypt from 'bcrypt'
+import bcrypt from 'bcryptjs'
 import jwt, { decode } from 'jsonwebtoken'
 import userModel from "../models/userModel.js"
 
