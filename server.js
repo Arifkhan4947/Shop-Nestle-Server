@@ -24,7 +24,7 @@ app.use(cors())
 app.use('/api/user',userRouter)   // import userRouter
 app.use('/api/product',productRouter)   // import productRouter
 app.use('/api/cart',cartRouter)  // import cartRouter
-app.use('/api/order', orderRouter) // import orderRouter
+app.use('/api/order',orderRouter) // import orderRouter
 
 
 app.get('/', (req,res) => { 
